@@ -6,7 +6,7 @@
  *
  * COMPONENT:      os_gen.c
  *
- * DATE:           Fri Dec  6 09:31:57 2019
+ * DATE:           Fri Dec  6 10:52:57 2019
  *
  * AUTHOR:         Jennic RTOS Configuration Tool
  *

@@ -217,7 +217,7 @@ CFLAGS +=  -DDEBUG_EXCEPTIONS
 # Path definitions
 
 # Use if application directory contains multiple targets
-SDK_BASE_DIR        =  $(abspath ../../../../sdk/$(JENNIC_SDK))
+SDK_BASE_DIR        =  $(abspath ../../sdk/$(JENNIC_SDK))
 APP_BASE            =  $(abspath ../..)
 APP_BLD_DIR         = $(APP_BASE)/Common_Light/Build
 APP_SRC_DIR         = $(APP_BASE)/Common_Light/Source
