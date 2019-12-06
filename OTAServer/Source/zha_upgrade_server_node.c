@@ -110,8 +110,11 @@ PUBLIC bool bToggle;
 /***        Local Variables                                               ***/
 /****************************************************************************/
 // ZLL Commissioning trust centre link key
-static const uint8 s_au8ZllLnkKeyArray[16] = {0xd0, 0xd1, 0xd2, 0xd3, 0xd4, 0xd5, 0xd6, 0xd7,
-                                     0xd8, 0xd9, 0xda, 0xdb, 0xdc, 0xdd, 0xde, 0xdf};
+static const uint8 s_au8ZllLnkKeyArray[16] = {0x81, 0x42, 0x86, 0x86, 0x5D, 0xC1, 0xC8, 0xB2,
+		0xC8, 0xCB, 0xC5, 0x2E, 0x5D, 0x65, 0xD1, 0xB8};
+// Default ZLL Commissioning trust centre link key (does not work with Hue)
+//static const uint8 s_au8ZllLnkKeyArray[16] = {0xd0, 0xd1, 0xd2, 0xd3, 0xd4, 0xd5, 0xd6, 0xd7,
+//                                     0xd8, 0xd9, 0xda, 0xdb, 0xdc, 0xdd, 0xde, 0xdf};
 
 /****************************************************************************/
 /***        Exported Functions                                            ***/
